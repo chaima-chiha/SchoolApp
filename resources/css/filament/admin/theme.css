@@ -1,0 +1,13 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+
+
+@import '../../vendor/filament/forms/dist/module.esm.css';
+ @import '../../vendor/saade/filament-fullcalendar/resources/css/filament-fullcalendar.css';
+@import 'tippy.js/dist/tippy.css';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@config 'tailwind.config.js';
