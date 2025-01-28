@@ -60,7 +60,7 @@ class StudentResource extends Resource
     {
         return $table
             ->columns([
-                
+
                 Tables\Columns\TextColumn::make('nom')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('prenom')

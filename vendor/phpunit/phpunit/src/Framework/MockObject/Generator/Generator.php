@@ -10,6 +10,8 @@
 namespace PHPUnit\Framework\MockObject\Generator;
 
 use const PHP_EOL;
+use const PHP_MAJOR_VERSION;
+use const PHP_MINOR_VERSION;
 use const PREG_OFFSET_CAPTURE;
 use const WSDL_CACHE_NONE;
 use function array_merge;
@@ -70,6 +72,8 @@ use Throwable;
 use Traversable;
 
 /**
+ * @no-named-arguments Parameter names are not covered by the backward compatibility promise for PHPUnit
+ *
  * @internal This class is not covered by the backward compatibility promise for PHPUnit
  */
 final class Generator
